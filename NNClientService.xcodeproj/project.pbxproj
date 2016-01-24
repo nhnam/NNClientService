@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF938C20630AA6BD650D7C48 /* Pods_NNClientService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEFF2A5572C5654D2E9A995 /* Pods_NNClientService.framework */; };
+		D8CDDE9A1C54D3B90046A1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDE991C54D3B90046A1A1 /* AppDelegate.swift */; };
+		D8CDDE9C1C54D3B90046A1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDE9B1C54D3B90046A1A1 /* ViewController.swift */; };
+		D8CDDE9F1C54D3B90046A1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CDDE9D1C54D3B90046A1A1 /* Main.storyboard */; };
+		D8CDDEA11C54D3B90046A1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CDDEA01C54D3B90046A1A1 /* Assets.xcassets */; };
+		D8CDDEA41C54D3B90046A1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CDDEA21C54D3B90046A1A1 /* LaunchScreen.storyboard */; };
+		D8CDDEB61C54E5430046A1A1 /* NNClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDEB21C54E5430046A1A1 /* NNClientService.swift */; };
+		D8CDDEB71C54E5430046A1A1 /* NNClientServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDEB31C54E5430046A1A1 /* NNClientServiceConfig.swift */; };
+		D8CDDEB81C54E5430046A1A1 /* NNClientServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDEB41C54E5430046A1A1 /* NNClientServiceProtocol.swift */; };
+		D8CDDEBA1C54E5500046A1A1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDEB91C54E5500046A1A1 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F8F4C203459ADA8F930466D /* Pods-NNClientService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNClientService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNClientService/Pods-NNClientService.debug.xcconfig"; sourceTree = "<group>"; };
+		2AEFF2A5572C5654D2E9A995 /* Pods_NNClientService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNClientService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EB7F4C3F13F4BE89E9242C /* Pods-NNClientService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNClientService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNClientService/Pods-NNClientService.release.xcconfig"; sourceTree = "<group>"; };
+		D8CDDE961C54D3B90046A1A1 /* NNClientService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNClientService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CDDE991C54D3B90046A1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8CDDE9B1C54D3B90046A1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8CDDE9E1C54D3B90046A1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8CDDEA01C54D3B90046A1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8CDDEA31C54D3B90046A1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8CDDEA51C54D3B90046A1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CDDEB21C54E5430046A1A1 /* NNClientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNClientService.swift; sourceTree = "<group>"; };
+		D8CDDEB31C54E5430046A1A1 /* NNClientServiceConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNClientServiceConfig.swift; sourceTree = "<group>"; };
+		D8CDDEB41C54E5430046A1A1 /* NNClientServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNClientServiceProtocol.swift; sourceTree = "<group>"; };
+		D8CDDEB91C54E5500046A1A1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8CDDE931C54D3B90046A1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF938C20630AA6BD650D7C48 /* Pods_NNClientService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFC5B3A1689523A65FFCCCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8F4C203459ADA8F930466D /* Pods-NNClientService.debug.xcconfig */,
+				73EB7F4C3F13F4BE89E9242C /* Pods-NNClientService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE2D26F8A66B3806531597CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AEFF2A5572C5654D2E9A995 /* Pods_NNClientService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8CDDE8D1C54D3B90046A1A1 = {
+			isa = PBXGroup;
+			children = (
+				D8CDDE981C54D3B90046A1A1 /* NNClientService */,
+				D8CDDE971C54D3B90046A1A1 /* Products */,
+				CBFC5B3A1689523A65FFCCCC /* Pods */,
+				CE2D26F8A66B3806531597CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8CDDE971C54D3B90046A1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDDE961C54D3B90046A1A1 /* NNClientService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8CDDE981C54D3B90046A1A1 /* NNClientService */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDDEB11C54E5430046A1A1 /* Core */,
+				D8CDDEB51C54E5430046A1A1 /* Model */,
+				D8CDDE991C54D3B90046A1A1 /* AppDelegate.swift */,
+				D8CDDE9B1C54D3B90046A1A1 /* ViewController.swift */,
+				D8CDDE9D1C54D3B90046A1A1 /* Main.storyboard */,
+				D8CDDEA01C54D3B90046A1A1 /* Assets.xcassets */,
+				D8CDDEA21C54D3B90046A1A1 /* LaunchScreen.storyboard */,
+				D8CDDEA51C54D3B90046A1A1 /* Info.plist */,
+			);
+			path = NNClientService;
+			sourceTree = "<group>";
+		};
+		D8CDDEB11C54E5430046A1A1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDDEB21C54E5430046A1A1 /* NNClientService.swift */,
+				D8CDDEB31C54E5430046A1A1 /* NNClientServiceConfig.swift */,
+				D8CDDEB41C54E5430046A1A1 /* NNClientServiceProtocol.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D8CDDEB51C54E5430046A1A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDDEB91C54E5500046A1A1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8CDDE951C54D3B90046A1A1 /* NNClientService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CDDEA81C54D3B90046A1A1 /* Build configuration list for PBXNativeTarget "NNClientService" */;
+			buildPhases = (
+				8FE074FC6F0AD2D45494C4CA /* Check Pods Manifest.lock */,
+				D8CDDE921C54D3B90046A1A1 /* Sources */,
+				D8CDDE931C54D3B90046A1A1 /* Frameworks */,
+				D8CDDE941C54D3B90046A1A1 /* Resources */,
+				294E73C399DA6865F99DB482 /* Embed Pods Frameworks */,
+				0FABB711F33EBCA6F885D1AD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNClientService;
+			productName = NNClientService;
+			productReference = D8CDDE961C54D3B90046A1A1 /* NNClientService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8CDDE8E1C54D3B90046A1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nguyen Hoang Nam";
+				TargetAttributes = {
+					D8CDDE951C54D3B90046A1A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D8CDDE911C54D3B90046A1A1 /* Build configuration list for PBXProject "NNClientService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8CDDE8D1C54D3B90046A1A1;
+			productRefGroup = D8CDDE971C54D3B90046A1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8CDDE951C54D3B90046A1A1 /* NNClientService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8CDDE941C54D3B90046A1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CDDEA41C54D3B90046A1A1 /* LaunchScreen.storyboard in Resources */,
+				D8CDDEA11C54D3B90046A1A1 /* Assets.xcassets in Resources */,
+				D8CDDE9F1C54D3B90046A1A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FABB711F33EBCA6F885D1AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNClientService/Pods-NNClientService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		294E73C399DA6865F99DB482 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNClientService/Pods-NNClientService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE074FC6F0AD2D45494C4CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8CDDE921C54D3B90046A1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CDDEB71C54E5430046A1A1 /* NNClientServiceConfig.swift in Sources */,
+				D8CDDEB81C54E5430046A1A1 /* NNClientServiceProtocol.swift in Sources */,
+				D8CDDEBA1C54E5500046A1A1 /* User.swift in Sources */,
+				D8CDDE9C1C54D3B90046A1A1 /* ViewController.swift in Sources */,
+				D8CDDEB61C54E5430046A1A1 /* NNClientService.swift in Sources */,
+				D8CDDE9A1C54D3B90046A1A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8CDDE9D1C54D3B90046A1A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CDDE9E1C54D3B90046A1A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8CDDEA21C54D3B90046A1A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CDDEA31C54D3B90046A1A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8CDDEA61C54D3B90046A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8CDDEA71C54D3B90046A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8CDDEA91C54D3B90046A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8F4C203459ADA8F930466D /* Pods-NNClientService.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNClientService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.namnh.NNClientService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8CDDEAA1C54D3B90046A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EB7F4C3F13F4BE89E9242C /* Pods-NNClientService.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNClientService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.namnh.NNClientService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8CDDE911C54D3B90046A1A1 /* Build configuration list for PBXProject "NNClientService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CDDEA61C54D3B90046A1A1 /* Debug */,
+				D8CDDEA71C54D3B90046A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8CDDEA81C54D3B90046A1A1 /* Build configuration list for PBXNativeTarget "NNClientService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CDDEA91C54D3B90046A1A1 /* Debug */,
+				D8CDDEAA1C54D3B90046A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8CDDE8E1C54D3B90046A1A1 /* Project object */;
+}

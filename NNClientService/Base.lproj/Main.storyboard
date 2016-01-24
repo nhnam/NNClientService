@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NNClientService" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbi-ye-mUS" customClass="SpringIndicator" customModule="SpringIndicator">
+                                <rect key="frame" x="266" y="265" width="69" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="378-YH-SOG"/>
+                                    <constraint firstAttribute="height" constant="69" id="aL1-9j-CoJ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFR-H6-mIN">
+                                <rect key="frame" x="266" y="342" width="69" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="89y-Pe-ioA"/>
+                                    <constraint firstAttribute="width" constant="69" id="OG4-Sg-zOh"/>
+                                </constraints>
+                                <state key="normal" title="Reload"/>
+                                <connections>
+                                    <action selector="didTouchReload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugw-OG-eXT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Vbi-ye-mUS" secondAttribute="trailing" constant="265" id="0Zp-9Z-MpE"/>
+                            <constraint firstItem="uFR-H6-mIN" firstAttribute="top" secondItem="Vbi-ye-mUS" secondAttribute="bottom" constant="8" id="INl-7n-s06"/>
+                            <constraint firstItem="Vbi-ye-mUS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cm6-B0-uRn"/>
+                            <constraint firstItem="uFR-H6-mIN" firstAttribute="centerX" secondItem="Vbi-ye-mUS" secondAttribute="centerX" id="h3B-2z-5qt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vbi-ye-mUS" secondAttribute="bottom" constant="266" id="hTV-Jv-IhJ"/>
+                            <constraint firstItem="uFR-H6-mIN" firstAttribute="top" secondItem="Vbi-ye-mUS" secondAttribute="bottom" constant="8" id="jfp-0R-F5r"/>
+                            <constraint firstItem="Vbi-ye-mUS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="245" id="xna-Ho-5L2"/>
+                            <constraint firstItem="Vbi-ye-mUS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yC7-ih-mBh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0Zp-9Z-MpE"/>
+                                <exclude reference="xna-Ho-5L2"/>
+                                <exclude reference="INl-7n-s06"/>
+                                <exclude reference="hTV-Jv-IhJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="Vbi-ye-mUS" id="TGZ-xm-4LD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="410"/>
+        </scene>
+    </scenes>
+</document>
