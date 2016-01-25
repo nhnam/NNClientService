@@ -8,6 +8,6 @@
 
 import UIKit
 
-class NNClientDataResponseProtocol: NSObjectProtocol {
-
+protocol NNClientDataResponseProtocol: NSObjectProtocol {
+    func ncs_DataResponse(object:AnyObject?)
 }

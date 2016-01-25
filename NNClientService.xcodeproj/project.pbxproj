@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF938C20630AA6BD650D7C48 /* Pods_NNClientService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEFF2A5572C5654D2E9A995 /* Pods_NNClientService.framework */; };
+		D8AFFE781C567D0900975BB6 /* NNClientDataResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AFFE771C567D0900975BB6 /* NNClientDataResponseProtocol.swift */; };
 		D8CDDE9A1C54D3B90046A1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDE991C54D3B90046A1A1 /* AppDelegate.swift */; };
 		D8CDDE9C1C54D3B90046A1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDDE9B1C54D3B90046A1A1 /* ViewController.swift */; };
 		D8CDDE9F1C54D3B90046A1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CDDE9D1C54D3B90046A1A1 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		1F8F4C203459ADA8F930466D /* Pods-NNClientService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNClientService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNClientService/Pods-NNClientService.debug.xcconfig"; sourceTree = "<group>"; };
 		2AEFF2A5572C5654D2E9A995 /* Pods_NNClientService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNClientService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EB7F4C3F13F4BE89E9242C /* Pods-NNClientService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNClientService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNClientService/Pods-NNClientService.release.xcconfig"; sourceTree = "<group>"; };
+		D8AFFE771C567D0900975BB6 /* NNClientDataResponseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNClientDataResponseProtocol.swift; sourceTree = "<group>"; };
 		D8CDDE961C54D3B90046A1A1 /* NNClientService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNClientService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CDDE991C54D3B90046A1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8CDDE9B1C54D3B90046A1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				D8CDDEB21C54E5430046A1A1 /* NNClientService.swift */,
 				D8CDDEB31C54E5430046A1A1 /* NNClientServiceConfig.swift */,
 				D8CDDEB41C54E5430046A1A1 /* NNClientServiceProtocol.swift */,
+				D8AFFE771C567D0900975BB6 /* NNClientDataResponseProtocol.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				D8CDDEB81C54E5430046A1A1 /* NNClientServiceProtocol.swift in Sources */,
 				D8CDDEBA1C54E5500046A1A1 /* User.swift in Sources */,
 				D8CDDE9C1C54D3B90046A1A1 /* ViewController.swift in Sources */,
+				D8AFFE781C567D0900975BB6 /* NNClientDataResponseProtocol.swift in Sources */,
 				D8CDDEB61C54E5430046A1A1 /* NNClientService.swift in Sources */,
 				D8CDDE9A1C54D3B90046A1A1 /* AppDelegate.swift in Sources */,
 			);
